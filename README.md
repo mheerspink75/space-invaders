@@ -87,9 +87,9 @@ about 1,600 lines of TypeScript, of which the game engine itself is ~740.
 
 ## Local development
 
-Requires **Node 20 or newer** and npm. If you're working inside WSL, see
-[Troubleshooting](#troubleshooting) first — the Windows Node copy usually takes
-over and breaks every script.
+Requires **Node 20.19+ or 22.12+** (Vite's own minimum — CI uses Node 24) and
+npm. If you're working inside WSL, see [Troubleshooting](#troubleshooting)
+first — the Windows Node copy usually takes over and breaks every script.
 
 ```bash
 npm install
