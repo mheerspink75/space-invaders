@@ -37,6 +37,11 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
+        # Pages has to exist before configure-pages can query it. `enablement`
+        # turns the site on with this workflow as the source, so a brand new
+        # repository can deploy without anyone visiting Settings first.
+        with:
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
