@@ -19,6 +19,7 @@ Deployed to GitHub Pages with GitHub Actions.
 - [Tuning the game](#tuning-the-game)
 - [Project layout](#project-layout)
 - [Troubleshooting](#troubleshooting)
+- [License](#license)
 
 ## Features
 
@@ -271,3 +272,12 @@ check for a global `image-rendering: auto` or a canvas style from browser dev
 tools. Note that a browser zoom level or a non-integer OS display scale (like
 Windows 125%) is handled automatically, since the app measures
 `devicePixelRatio` and rounds the zoom to a whole number of device pixels.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
+All artwork and audio in this project is generated from code (ASCII bitmaps and
+oscillators), so there are no third-party asset licenses to account for. The
+game is a tribute to Taito's 1978 arcade original; this is an independent
+reimplementation and is not affiliated with or endorsed by Taito.

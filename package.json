@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "type": "module",
   "description": "Classic Space Invaders in React + Canvas",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
